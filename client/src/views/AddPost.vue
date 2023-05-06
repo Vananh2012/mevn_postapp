@@ -39,7 +39,7 @@ import API from '@/api';
       },
       async submitForm() {
         const formData = new FormData();
-        formData.append("image", this.image);
+        formData.append("image", this.post.image);
         formData.append("title", this.post.title);
         formData.append("category", this.post.category);
         formData.append("content", this.post.content);

@@ -4,7 +4,7 @@
       <v-list-item>
         <v-list-item-content>
           <v-list-item-title>
-            <h1>MINI APP</h1>
+            <h1>FILM APP</h1>
           </v-list-item-title>
           <v-list-item-subtitle>
             Welcome!
@@ -29,7 +29,7 @@
     <v-app-bar app>
       <v-app-bar-nav-icon @click="drawer = !drawer"></v-app-bar-nav-icon>
 
-      <v-toolbar-title>LIST POST</v-toolbar-title>
+      <v-toolbar-title>LIST FILM</v-toolbar-title>
     </v-app-bar>
 
     <v-main>
@@ -44,8 +44,7 @@
       drawer: null,
       items: [
         { title: "Home", icon: "mdi-home", link: "/" },
-        { title: "Add Post", icon: "mdi-note-plus", link: "/add-post" },
-        { title: "About", icon: "mdi-help-box", link: "/about" },
+        { title: "Add Film", icon: "mdi-note-plus", link: "/add-post" },
       ],
     }),
   }
