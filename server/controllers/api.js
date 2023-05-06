@@ -33,6 +33,7 @@ module.exports = class API {
         }
     }
 
+    
     static async updatePost(req, res){
         const id = req.params.id;
         let new_image ="";
